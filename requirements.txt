@@ -1,0 +1,15 @@
+langchain>=0.2.0
+langgraph>=0.1.0
+langchain-openai>=0.1.0       # used when PROVIDER=openai
+langchain-groq>=0.1.0         # used when PROVIDER=groq
+fastembed>=0.3.0              # free local embeddings for PROVIDER=groq
+langchain-community>=0.2.0
+langchain-pinecone>=0.1.0
+langchain-text-splitters>=0.2.0
+pinecone>=5.0.0               # successor to pinecone-client (same `from pinecone import Pinecone` API)
+pypdf>=4.0.0
+fastapi>=0.110.0
+uvicorn>=0.28.0
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+requests>=2.31.0              # used by tests_sample_queries.py
